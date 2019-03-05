@@ -25,7 +25,7 @@ LSP java mode supports the following JDT Features:
 ## Installation
 ### Spacemacs
 [lsp-java](https://github.com/emacs-lsp/lsp-java) is included in spacemacs (for now only on the dev branch). If you are using the development version of
-spacemacs you can simply add `(java :variables java-backend 'lsp)` to `dotspacemacs-configuration-layers`.
+spacemacs you can simply add `(java :variables java-backend 'lsp)` and 'lsp' and 'dap' (if you want dap support) to `dotspacemacs-configuration-layers`.
 
 ### Install via melpa
 The recommended way to install LSP Java is via `package.el` - the built-in package
